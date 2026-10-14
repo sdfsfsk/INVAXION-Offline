@@ -1,0 +1,285 @@
+{
+  "original_sha256": "dda912ad8db27127bb33bf8e8fcf67271b087308156bfaf1208e9614abf80d84",
+  "patched_sha256": "767766bd767ae3620d431b85a67166a81b7647a624bcd9694f371da4369a9079",
+  "patches": [
+    {
+      "method": "Aquatrax.LoginView::OnClickOffline",
+      "token": "0x60011e8",
+      "offset": 648656,
+      "old_body_size": 179,
+      "new_bytes": "033008006900000000000000372b1d000637401d0006372b1d000637411d000682c716000637ec160006372b1d000637411d0006828916000637d6160006372b1d00062f1a270000373e1d0006372b1d000626374c1d0006371b3600063537e40400063581081a017081281a017037e11300063539"
+    },
+    {
+      "method": "Aquatrax.LoginView::prepareBeforeLogin",
+      "token": "0x6001211",
+      "offset": 653772,
+      "old_body_size": 29,
+      "new_bytes": "1e1137e811000639"
+    },
+    {
+      "method": "Aquatrax.LoginServer::Update",
+      "token": "0x6001c9d",
+      "offset": 87470,
+      "old_body_size": 48,
+      "new_bytes": "0639"
+    },
+    {
+      "method": "Aquatrax.LoginServer::ConnectLoginServer",
+      "token": "0x6001c9e",
+      "offset": 719256,
+      "old_body_size": 89,
+      "new_bytes": "0639"
+    },
+    {
+      "method": "Aquatrax.LoginServer::RegAccount",
+      "token": "0x6001ca0",
+      "offset": 719428,
+      "old_body_size": 95,
+      "new_bytes": "0639"
+    },
+    {
+      "method": "Aquatrax.LoginServer::LoginAccount",
+      "token": "0x6001ca1",
+      "offset": 719524,
+      "old_body_size": 88,
+      "new_bytes": "0639"
+    },
+    {
+      "method": "Aquatrax.LoginServer::QuickToken",
+      "token": "0x6001ca2",
+      "offset": 719612,
+      "old_body_size": 71,
+      "new_bytes": "0639"
+    },
+    {
+      "method": "Aquatrax.LoginServer::QuickLogin",
+      "token": "0x6001ca3",
+      "offset": 719684,
+      "old_body_size": 82,
+      "new_bytes": "0639"
+    },
+    {
+      "method": "Aquatrax.LoginServer::RequestThirdLogin",
+      "token": "0x6001ca4",
+      "offset": 719768,
+      "old_body_size": 82,
+      "new_bytes": "0639"
+    },
+    {
+      "method": "Aquatrax.LoginServer::RequestBindAccount",
+      "token": "0x6001ca5",
+      "offset": 719852,
+      "old_body_size": 96,
+      "new_bytes": "0639"
+    },
+    {
+      "method": "Aquatrax.LoginServer::requestAnnouncement",
+      "token": "0x6001ca6",
+      "offset": 719948,
+      "old_body_size": 71,
+      "new_bytes": "0639"
+    },
+    {
+      "method": "Aquatrax.LoginServer::requestGameVersion",
+      "token": "0x6001ca7",
+      "offset": 720020,
+      "old_body_size": 73,
+      "new_bytes": "0639"
+    },
+    {
+      "method": "Aquatrax.NetManager::Reconnect",
+      "token": "0x6001cdd",
+      "offset": 722952,
+      "old_body_size": 97,
+      "new_bytes": "0639"
+    },
+    {
+      "method": "Aquatrax.NetManager::sendGateMsg",
+      "token": "0x6001cfc",
+      "offset": 87943,
+      "old_body_size": 27,
+      "new_bytes": "0639"
+    },
+    {
+      "method": "Aquatrax.NetManager::sendFailedMsg",
+      "token": "0x6001cfb",
+      "offset": 725524,
+      "old_body_size": 131,
+      "new_bytes": "0639"
+    },
+    {
+      "method": "Aquatrax.NetManager::Ret_UserGameTime",
+      "token": "0x6001ceb",
+      "offset": 724280,
+      "old_body_size": 90,
+      "new_bytes": "0639"
+    },
+    {
+      "method": "Aquatrax.NetManager::FixedUpdate",
+      "token": "0x6001cd9",
+      "offset": 722528,
+      "old_body_size": 203,
+      "new_bytes": "033008004600000000000000118a5b19000437ae0e000a7a3d371137ae0e000a7a8c5b1900042f21010000377301000a3b0d8d190e000425fe018f190e00042f22010000377301000a3b06258f190e000439"
+    },
+    {
+      "method": "Aquatrax.NetManager::EnterGate",
+      "token": "0x6001cdb",
+      "offset": 722732,
+      "old_body_size": 139,
+      "new_bytes": "0a2539"
+    },
+    {
+      "method": "Aquatrax.NetManager::canConnectToServer",
+      "token": "0x6001cf9",
+      "offset": 725412,
+      "old_body_size": 93,
+      "new_bytes": "0a2539"
+    },
+    {
+      "method": "Aquatrax.NetManager::isConnect",
+      "token": "0x6001cda",
+      "offset": 87727,
+      "old_body_size": 25,
+      "new_bytes": "0a2539"
+    },
+    {
+      "method": "Aquatrax.NetManager::getIP",
+      "token": "0x6001cfd",
+      "offset": 725672,
+      "old_body_size": 115,
+      "new_bytes": "0a1139"
+    },
+    {
+      "method": "EagleTcp::CreateLoginSocket",
+      "token": "0x6001c80",
+      "offset": 87247,
+      "old_body_size": 40,
+      "new_bytes": "0639"
+    },
+    {
+      "method": "EagleTcp::CreateGatewaySocket",
+      "token": "0x6001c81",
+      "offset": 87287,
+      "old_body_size": 40,
+      "new_bytes": "0639"
+    },
+    {
+      "method": "EagleTcp::ParseCmd",
+      "token": "0x6001c86",
+      "offset": 718808,
+      "old_body_size": 223,
+      "new_bytes": "0639"
+    },
+    {
+      "method": "EagleTcp::Disconnect",
+      "token": "0x6001c88",
+      "offset": 87394,
+      "old_body_size": 13,
+      "new_bytes": "0639"
+    },
+    {
+      "method": "EagleTcp::SendLoginCmd",
+      "token": "0x6001c83",
+      "offset": 87327,
+      "old_body_size": 27,
+      "new_bytes": "0a2539"
+    },
+    {
+      "method": "EagleTcp::SendGateCmd",
+      "token": "0x6001c84",
+      "offset": 87354,
+      "old_body_size": 27,
+      "new_bytes": "0a2539"
+    },
+    {
+      "method": "EagleTcp::SendCmd",
+      "token": "0x6001c85",
+      "offset": 718624,
+      "old_body_size": 167,
+      "new_bytes": "0a2539"
+    },
+    {
+      "method": "EagleTcp::IsConnected",
+      "token": "0x6001c87",
+      "offset": 87381,
+      "old_body_size": 13,
+      "new_bytes": "0a2539"
+    },
+    {
+      "method": "Aquatrax.tpSDKCtrl::steamUserAuthenticate_Encrypted",
+      "token": "0x6003631",
+      "offset": 1247152,
+      "old_body_size": 110,
+      "new_bytes": "0639"
+    },
+    {
+      "method": "Aquatrax.GlobalConfig::isUseLocalAssets",
+      "token": "0x6003a6a",
+      "offset": 154730,
+      "old_body_size": 16,
+      "new_bytes": "0a2639"
+    },
+    {
+      "method": "Aquatrax.AchievementManager::getInstance",
+      "token": "0x60004e4",
+      "offset": 26149,
+      "old_body_size": 52,
+      "new_bytes": "c68da3030004343c283582e3040006348fa3030004371c3600063b153437fe39000637573a0006820f3600068ca203000439"
+    },
+    {
+      "method": "Aquatrax.ResultView_single::uploadData",
+      "token": "0x600216a",
+      "offset": 823260,
+      "old_body_size": 1316,
+      "new_bytes": "4e11113769210006118aa01d0004377021000639"
+    },
+    {
+      "method": "Aquatrax.SteamAchievement::UpdateStat",
+      "token": "0x6003615",
+      "offset": 145718,
+      "old_body_size": 55,
+      "new_bytes": "d6371c3600063b2d111237123600063c241311123713360006401a111237113600068a2c3100041337b90a000a3b0637b80a000a3539"
+    },
+    {
+      "method": "<downloadprogress>c__Iterator0::MoveNext",
+      "token": "0x6003cf6",
+      "offset": 1336000,
+      "old_body_size": 700,
+      "new_bytes": "0a2539"
+    },
+    {
+      "method": "Aquatrax.SingleContentDownloader::ReDownload",
+      "token": "0x6003ce8",
+      "offset": 160866,
+      "old_body_size": 15,
+      "new_bytes": "0639"
+    }
+  ],
+  "metadata_patches": [
+    {
+      "description": "NetManager.FixedUpdate renamed to Update",
+      "offset": 2186870,
+      "new_bytes": "02490200"
+    }
+  ],
+  "byte_patches": [
+    {
+      "method": "Aquatrax.AchievementManager::checkAchievement",
+      "offset": 265552,
+      "old_bytes": "372b1d00067e351d0006",
+      "new_bytes": "371c36000625fe013a00"
+    }
+  ],
+  "steam_achievements_enabled": true,
+  "version": "2.0-steam-achievements",
+  "compatible_previous_sha256": [
+    "60a5469ec199a4c74e8ea2455cb5663196d6ec59f3a2eabf666f8f0847c1a6dd",
+    "ff5a43640b0063d931c9ea52afbc7cec8ea5609da1351e54f1b5819d51d68236"
+  ],
+  "autoplay_sha256": "914d4bf4b006d72afdbc9c3ea98779b060d7757c292877a35d7e074b662c4b55",
+  "autoplay_patch": {
+    "method": "Aquatrax.PlayData::Start",
+    "offset": 556720,
+    "bytes": "2f01000000"
+  }
+}

@@ -1,0 +1,30 @@
+# Game binaries, decompiled material, account snapshots and local logs
+/original/
+/analysis/
+/qa/
+/logs/
+/versions/
+/bin/*
+!/bin/patch-manifest.json
+
+# Only the standalone patch and debug tools are part of this source distribution.
+/tools/*
+!/tools/build_offline.py
+!/tools/recover_headers.py
+!/tools/verify_patch.py
+!/tools/debug-session.ps1
+!/tools/LiveLogReader.cs
+!/tools/test-live-log.ps1
+!/tools/find-game.ps1
+!/tools/prepare-patch.ps1
+!/tools/test-prepare-patch.ps1
+
+.venv/
+__pycache__/
+*.pyc
+*.dll
+*.exe
+*.log
+*.tmp
+.env
+.env.*
